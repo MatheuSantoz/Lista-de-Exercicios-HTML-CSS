@@ -1,0 +1,15 @@
+.carousel h1 {
+    /* border: solid red 1px; */
+    
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-image: url(https://picsum.photos/2000/550);
+}
+footer {
+    height: 45px;
+    background-color: bisque;
+}
+.bg-body-bege {
+    background-color: bisque;
+}

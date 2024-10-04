@@ -1,0 +1,34 @@
+:root{
+    --corPrimaria: #618264;
+    --corSecundaria: #D0E7D2;
+    --corPrimariaB: #79AC78;
+    --corSeundariaB: #B0D9B1;
+}
+.bg-green {
+    background-color: var(--corPrimaria);
+}
+.bg-green .nav-link{
+    color: var(--corSecundaria);
+}
+.bg-green .nav-link.active {
+    color: var(--corSecundaria);
+}
+.btn-green {
+    background-color: var(--corPrimaria);
+    color: var(--corSecundaria);
+}
+.btn-green:hover {
+    background-color: var(--corSecundaria);
+    color: var(--corPrimaria);
+    border: 1px solid var(--corPrimaria)
+}
+.sec-img {
+    
+    border: 1px solid red;
+    height: 60vh;
+    background-image: url('https://picsum.photos/2200/500');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--corSecundaria);
+    
+}

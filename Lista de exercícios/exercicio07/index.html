@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="../../BOOOOOOOOTTTTTTTSSSSSSSTTTTTRRRAAAAAAPPP/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-black">
+    <header class="row col-12">
+        <figure>
+            <img class="w-100" src="../exercicio06/img/header_Rd3w.png" alt="">
+        </figure>
+    </header>
+
+    <main class="col-12 container p-5">
+        <h1 class="text-warning text-center display-3">Relógio</h1>
+        <h2 class="text-white text-center display-3" id="time"></h2>
+    </main>
+
+    <script>
+        const interval = setInterval(() => {
+        const data = new Date();
+        document.getElementById("time").innerHTML = `${data.getHours()}:${data.getMinutes()}:${data.getSeconds()}`;
+        },1000);
+    </script>
+    <script
+        src="../../BOOOOOOOOTTTTTTTSSSSSSSTTTTTRRRAAAAAAPPP/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

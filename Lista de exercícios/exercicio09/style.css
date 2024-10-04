@@ -1,0 +1,10 @@
+header{
+    height: 80vh;
+    background-image: url('escalada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+.a {
+    border: solid red 1px;
+}

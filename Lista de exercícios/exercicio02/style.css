@@ -1,0 +1,46 @@
+header {
+    
+    background-color: green;
+    color: antiquewhite;
+    text-align: center;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-style: Arial;
+}
+
+body {
+    background-color: antiquewhite;
+}
+main {
+    margin: 0 auto;
+    width: 80%;
+    padding: 50px;
+}
+h1 {
+    
+    padding: 50px;
+}
+
+h2 {
+    border-left: 6.9px solid green;
+    border-style: center;
+    border-top-right-radius: 4px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-style: italic;
+    /* border-left: 5px solid green; */
+    font-size: 32px;
+}
+p {
+    padding-top: 19px;
+}
+
+img {
+    
+    float: left;
+    margin: 0 auto;
+    width: 500px;
+}
